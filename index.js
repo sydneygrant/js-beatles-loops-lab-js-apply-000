@@ -8,16 +8,16 @@ function theBeatlesPlay(musicians, instruments){
   return newArr;
 }
 
-// function johnLennonFacts(facts){
-//   var arr = [];
-//   var count = 0;
-//   var i = 0;
-//   while (count < facts){
-//     arr[i] =facts[count] + "!!!");
-//     count++;
-//   }
-//   return arr;
-// }
+function johnLennonFacts(facts){
+  var arr = [];
+  var count = 0;
+  var i = 0;
+  while (count < facts){
+    arr[i] =facts[count] + "!!!");
+    count++;
+  }
+  return arr;
+}
 //
 // function iLoveTheBeatles(number){
 //   var arr = [];
