@@ -8,16 +8,26 @@ function theBeatlesPlay(musicians, instruments){
   return newArr;
 }
 
-function johnLennonFacts(facts){
-  var count = 0;
-  var str = "";
-  while (count < facts){
-    str += facts[count] + "!!!" + '\n';
-    count++;
-  }
-  var arr = [str];
-  return arr;
+function johnLennonFacts(factsArray){
+var i=0;
+var newArray=[];
+while (factsArray.length > i){
+newArray.push(`${factsArray[i]}` + “!!!”);
+i++;
 }
+return newArray;
+}
+
+// function johnLennonFacts(facts){
+//   var count = 0;
+//   var str = "";
+//   while (count < facts){
+//     str += facts[count] + "!!!" + '\n';
+//     count++;
+//   }
+//   var arr = [str];
+//   return arr;
+// }
 //
 // function iLoveTheBeatles(number){
 //   var arr = [];
