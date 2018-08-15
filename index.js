@@ -19,13 +19,13 @@ function theBeatlesPlay(musicians, instruments){
 //   return arr;
 // }
 //
-function iLoveTheBeatles(number){
-  var arr = [];
-  var count = 0;
-  do{
-    arr[count] = "I love the Beatles";
-    count++;
-
-  } while (number < 15);
-  return arr;
-}
+// function iLoveTheBeatles(number){
+//   var arr = [];
+//   var count = 0;
+//   do{
+//     arr[count] = "I love the Beatles";
+//     count++;
+//
+//   } while (number < 15);
+//   return arr;
+// }
